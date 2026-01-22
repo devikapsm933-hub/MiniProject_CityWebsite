@@ -7,75 +7,96 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Paris City Guide</h1>
-            <nav>
-                <a href="#about">Home</a>
-                <a href="#attractions">Attractions</a>
-                <a href="#food">Food</a>
-                <a href="#contact">Contact</a>
-            </nav>
+
+<header>
+    <div class="container">
+        <h1>Paris City Guide</h1>
+        <nav>
+            <a href="#about">Home</a>
+            <a href="#attractions">Attractions</a>
+            <a href="#food">Food</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- About Section -->
+    <section id="about" class="card">
+        <h2>About Paris</h2>
+        <img src="images/eiffel-tower.jpg" alt="Eiffel Tower">
+        <p>
+            Paris is the capital of France, famous for its art, history, landmarks,
+            and delicious food. Known as the "City of Light," it is a hub for culture
+            and tourism.
+        </p>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="card">
+        <h2>Famous Attractions</h2>
+
+        <div class="card-grid">
+            <div class="card-item">
+                <img src="images/eiffel-tower.jpg" alt="Eiffel Tower">
+                <h3>Eiffel Tower</h3>
+                <p>The most iconic landmark of Paris with stunning views.</p>
+            </div>
+
+            <div class="card-item">
+                <img src="images/louvre-museum.jpg" alt="Louvre Museum">
+                <h3>Louvre Museum</h3>
+                <p>Home to the Mona Lisa and thousands of art masterpieces.</p>
+            </div>
+
+            <div class="card-item">
+                <img src="images/notre-dame.jpg" alt="Notre Dame">
+                <h3>Notre Dame</h3>
+                <p>Historic cathedral with Gothic architecture and rich history.</p>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <main class="container">
-        <section id="about" class="card">
-            <h2>About Paris</h2>
-            <p>Paris is the capital of France, famous for its art, history, landmarks, and delicious food. Known as the "City of Light," it is a hub for culture and tourism.</p>
-            <img src="images/eiffel.jpg" alt="Eiffel Tower">
-        </section>
+    <!-- Food Section -->
+    <section id="food" class="card">
+        <h2>Famous Food</h2>
 
-        <section id="attractions" class="card">
-            <h2>Famous Attractions</h2>
-            <div class="card-grid">
-                <div class="card-item">
-                    <h3>Eiffel Tower</h3>
-                    <img src="images/eiffel.jpg" alt="Eiffel Tower">
-                    <p>The most iconic landmark of Paris with stunning views.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Louvre Museum</h3>
-                    <img src="images/louvre.jpg" alt="Louvre">
-                    <p>Home to the Mona Lisa and thousands of art masterpieces.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Notre Dame</h3>
-                    <img src="images/notredame.jpg" alt="Notre Dame">
-                    <p>Historic cathedral with Gothic architecture and rich history.</p>
-                </div>
+        <div class="card-grid">
+            <div class="card-item">
+                <img src="images/croissant.jpg" alt="Croissant">
+                <h3>Croissants</h3>
+                <p>Flaky buttery pastries loved worldwide.</p>
             </div>
-        </section>
 
-        <section id="food" class="card">
-            <h2>Famous Food</h2>
-            <div class="card-grid">
-                <div class="card-item">
-                    <h3>Croissants</h3>
-                    <img src="images/croissant.jpg" alt="Croissant">
-                    <p>Flaky buttery pastries loved worldwide.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Cheese</h3>
-                    <img src="images/cheese.jpg" alt="Cheese">
-                    <p>France is famous for its variety of delicious cheeses.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Macarons</h3>
-                    <img src="images/macarons.jpg" alt="Macarons">
-                    <p>Colorful and sweet almond meringue cookies.</p>
-                </div>
+            <div class="card-item">
+                <img src="images/cheese.jpg" alt="Cheese">
+                <h3>Cheese</h3>
+                <p>France is famous for its variety of delicious cheeses.</p>
             </div>
-        </section>
 
-        <section id="contact" class="card">
-            <h2>Contact</h2>
-            <p>For more information about Paris, email us at <a href="mailto:devika@example.com">devika@example.com</a></p>
-        </section>
-    </main>
+            <div class="card-item">
+                <img src="images/macarons.jpg" alt="Macarons">
+                <h3>Macarons</h3>
+                <p>Colorful and sweet almond meringue cookies.</p>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Devika Pulimkunnath Surendran | Internet and Web Basics</p>
-    </footer>
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>
+            For more information about Paris, email us at
+            <a href="mailto:devika@example.com">devika@example.com</a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Devika Pulimkunnath Surendran | Internet and Web Basics</p>
+</footer>
+
 </body>
 </html>
